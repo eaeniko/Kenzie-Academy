@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+</head>
+<body>
+    <section>
+        <h1>Cadastro</h1>
+        <form>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Seu nome aqui" required>
+            </div>
+            
+            <div>
+                <label for="email">Email:</label>
+                <input type="mail" id="email" placeholder="eaenikolai@gmail.com" required>
+
+            <div>
+                <label for="descricao">Descrição:</label>
+                <textarea name="descricao" id="descricao" cols="30" rows="10" placeholder="Descreva o que te motivou a participar"></textarea>
+            </div>
+
+            <div>
+                <label for="curso-modulo">Qual módulo do curso você está?</label>
+                <select name="curso-modulo" id="curso-modulo">
+                    <option value="modulo1">Módulo 1</option>
+                    <option value="modulo2">Módulo 2</option>
+                    <option value="modulo3">Módulo 3</option>
+                    <option value="modulo4">Módulo 4</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" placeholder="sua senha aqui" required>
+                
+            </div>
+
+            <div>
+                <label for="senha">Confirme a senha:</label>
+                <input type="password" id="senha" placeholder="confirme sua senha" required>
+            </div>
+
+            <div>
+                <label for="news">Deseja Receber novidas via email?</label>
+                <input type="radio" name="news" id="sim" value="sim">
+                    <label for="sim">Sim</label>
+                <input type="radio" name="news" id="nao" value="nao">
+                    <label for="nao">Não</label>
+                
+            </div>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </section>
+</body>
+</html>
