@@ -27,7 +27,7 @@ h1, h2, h3, label, button {
     font-weight: 600;
 }
 
-section {
+.articles {
     background-color: #fffffff3;
     margin: 6px 30px;
     padding: 20px 5px 5px;
@@ -39,7 +39,7 @@ h2 {
     margin-bottom: 15px;
 }
 
-section > p {
+.articles > p {
     font-size: 0.9em;
     text-align: left;
     padding-bottom: 10px;
@@ -51,6 +51,10 @@ a {
     text-align: right;
 }
 
+.newsletter, .articles {
+    margin-left: 100px;
+    margin-right: 100px;
+}
 .newsletter {
     background-color: #3590ff;
     border: solid 3px black;
