@@ -1,0 +1,16 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* align-content: center; */
+}
+
+.box {
+    background-color: #c5c5c5;
+    flex-direction: row;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;    
+}
