@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4vh 8vw;
+    box-shadow: 6px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    flex-grow: 1;
+    color: violet;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.nav-menu {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 4vw;
+    flex-grow: 1;
+}
+.nav-itens {
+    text-decoration: none;
+    color: black;
+    padding-top: 4px;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-itens:hover, :focus {
+    color: rgb(34, 34, 203);
+    border-bottom: 2px solid rgb(34, 34, 203);
+}
+
+/* .box {
+    background-color: #f1eeee;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+} */
