@@ -1,0 +1,32 @@
+
+
+body {
+    background-color: #15171a;
+    color: aliceblue;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.nav-menu {
+    display: flex;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.nav-items {
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 2px;
+}
+
+.nav-items:hover {
+    background-color: rgb(108, 108, 243);
+    color: black;
+    font-weight: 600;
+}
